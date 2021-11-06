@@ -1,0 +1,57 @@
+.btn {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;   
+}
+
+.btn-cerrar {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-size: 23px;
+    font-weight: bolder;   
+}
+
+
+.btn__publicar {
+    color: green;
+
+    &:hover {
+        color: darken($color: green, $amount: 10);
+    }
+}
+
+.btn__felicitar {
+    color: purple;
+
+    &:hover {
+        color: darken($color: purple, $amount: 10);
+    }
+}
+
+.btn__evento {
+    color: red;
+
+    &:hover {
+        color: darken($color: red, $amount: 10);
+    }
+}
+
+.btn__vender {
+    color: blue;
+    
+    &:hover {
+        color: darken($color: blue, $amount: 10);
+    }
+}
+
+.btn__asist {
+    color: orange;
+
+    &:hover {
+        color: darken($color: orange, $amount: 10);
+    }        
+}
+
+

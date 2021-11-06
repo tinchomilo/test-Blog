@@ -1,0 +1,68 @@
+.home__main {
+    align-items: center;
+    background-color: $backgroundColor;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: scroll;
+    width: 100vw;
+}
+
+.home__conteiner {
+    align-items: center;
+    background-color: rgb(250, 244, 244);
+    background-color: white;
+    border-radius: 15px;    
+    flex-direction: column;
+    height: 80px;
+    padding: 20px;
+    width: 45%;
+}
+
+.home__img {
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.home__input {
+    background-color: rgb(238, 237, 237);
+    border-radius: 15px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+    padding-left: 10px;
+    width: 90%;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+.home__form {
+    display: flex;
+}
+
+.home__opciones {
+    display: flex;
+    justify-content: space-around;
+    width: 95%;
+}
+
+.modal-background {
+    background-color: rgba(10, 10, 10, 0.86);
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+
+  .modal-card {
+    background-color: lightgray;
+    border-radius: 5px;
+    display: block;
+    height: 300px;
+    margin-top: 250px;
+    margin: 0 auto;
+    width: 300px;
+  }
